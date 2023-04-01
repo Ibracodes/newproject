@@ -4,6 +4,7 @@ import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import {AiOutlineMail, AiFillTwitterCircle} from 'react-icons/ai'
 import {HiChevronDoubleUp} from 'react-icons/hi'
 import Link from 'next/link'
+import Image9  from '../public/assets/contact.jpg'
 
 function Contact() {
   return (
@@ -16,7 +17,7 @@ function Contact() {
                <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                <div className='lg:p-4 h-full'>
                 <div>
-                <Image className='rounded-xl hover:scale-105 ease-in duration-300' src='/../public/assets/contact.jpg' alt='/' width='450' height='450'  />
+                <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={Image9} alt='/' width='450' height='450'  />
                 </div>
                      <div>
                       <h2 className='py-2'>Ibra Codes</h2>
