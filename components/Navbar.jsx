@@ -4,7 +4,7 @@ import React, {useState, useEffect} from 'react'
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu, AiFillTwitterCircle} from 'react-icons/ai'
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import { useRouter } from 'next/router'
-import Image7  from '../public/assets/navlogo1.png'
+
 
 
 export const Navbar = () => {
@@ -51,7 +51,7 @@ export const Navbar = () => {
     <div style={{ backgroundColor: `${navBg}` }}
      className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]': 'fixed w-full h-20 z-[100]' }>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-        <Image src={Image7} alt='/' width='125' height='50' />
+        <Image src='/../public/assets/navlogo1.png' alt='/' width='125' height='50' />
         <div>
 
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
@@ -87,7 +87,7 @@ export const Navbar = () => {
         <div>
 
           <div className='flex w-full items-center justify-between'>
-            <Image src={Image7} alt='/' width='87' height='35' />
+            <Image src='/../public/assets/navlogo1.png' alt='/' width='87' height='35' />
               <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                 <AiOutlineClose/>
               </div>
