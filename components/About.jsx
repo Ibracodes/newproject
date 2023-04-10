@@ -15,7 +15,7 @@ const About = () => {
              My skills include proficiency in HTML, CSS, JavaScript, and various front-end frameworks and libraries, such as React. I stay up to date with the latest trends and technologies in the industry, and am always looking for new ways to improve my skills and knowledge.
              </p>
              <p className='py-2 text-gray-600'>
-             When I&#39;m not coding, you can find me exploring the great outdoors or reading up on the latest tech news. I&#39;m excited about the future of front-end development and can&#39;t wait to see what new challenges and opportunities lie ahead.
+             When I&#39;m not coding, you can find me exploring the great outdoors or reading up on the latest tech news. I&#39;m excited about the future of front-end development and can&#39;t wait to see what new challenges and opportunities lie ahead
              </p>
              <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p>
           </div>
